@@ -10,4 +10,9 @@ export const LeftWrapper = styled.div`
     cursor: pointer;
     margin-left: 24px;
     }
+
+    .logo-img{
+    width: 140px;
+    height: 60px;
+    }
 `

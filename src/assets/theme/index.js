@@ -3,7 +3,7 @@
 //下方是项目主体颜色
 const theme = {
   color: {
-    primaryColor: "#ff385c",
+    primaryColor: "#00b1ff",
     secondaryColor: "#00848A"
   },
   text: {
