@@ -1,10 +1,10 @@
 import * as actionTypes from "./constants"
 
 const initialState = {
-  isLoading: false,
-  currentPage: 0,
-  roomList: [],
-  totalCount: 0
+  currentPage: 0,  //二级浏览页面，分页部分的“当前页码”
+  isLoading: false,  
+  roomList: [],  //房间列表
+  totalCount: 0  //页码总数
 }
 
 

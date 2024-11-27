@@ -1,12 +1,23 @@
-import React, { memo } from 'react'
+import React, { memo, useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 import { EntireWrapper } from './style'
+import EntireFilter from './c-cpns/entire-filter'
+import EntireRooms from './c-cpns/entire-rooms'
+import EntirePagination from './c-cpns/entire-pagination'
+import { fetchRoomListAction } from '@/store/features/entire/actionCreators.js'
 
 const Entire = memo(() => {
+  // 发送网络请求, 获取数据, 并且保存当前的页面等等.....
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(fetchRoomListAction())
+  }, [dispatch])
+
   return (
     <EntireWrapper>
-      <div className='filter'>filter-section</div>
-      <div className='rooms'>room-section</div>
-      <div className='pagination'>pagination-section</div>
+        <EntireFilter />
+        <EntireRooms/>
+        <EntirePagination/>
     </EntireWrapper>
   )
 })

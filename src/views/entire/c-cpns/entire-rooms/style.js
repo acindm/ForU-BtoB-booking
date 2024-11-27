@@ -1,5 +1,5 @@
 import styled from "styled-components"
 
-export const FilterWrapper = styled.div`
+export const RoomsWrapper = styled.div`
 
 `
