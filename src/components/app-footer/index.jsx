@@ -24,7 +24,7 @@ const AppFooter = memo(() => {
             })
           }
         </div>
-        <div className='statement'>© 2024 ForU, Inc. All rights reserved.  · 条款 · 隐私政策 · 网站地图</div>
+        <div className='statement'>© Copyright 2024 ForU.com Inc. All rights reserved.  · 条款 · 隐私政策 · 网站地图</div>
       </div>
     </FooterWrapper>
   )

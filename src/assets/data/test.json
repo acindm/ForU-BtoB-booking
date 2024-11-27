@@ -1,0 +1,160 @@
+{
+    "_id": "630429a1c591817931daf341",
+    "type": "good_price",
+    "title": "佛山高性价比房源",
+    "list": [
+        {
+            "id": "53682445",
+            "picture_url": "https://z1.muscache.cn/im/pictures/miso/Hosting-53682445/original/66f881c6-aea0-488a-8ffa-265486552fcf.jpeg?aki_policy=large",
+            "verify_info": {
+                "messages": [
+                    "整套loft",
+                    "1室1卫1床"
+                ],
+                "text_color": "#767676"
+            },
+            "name": "【闲梦】韩系ins纯白民宿/一次性毛巾/复式loft/落地窗/拍照纪念/大屏投影/私人影院/情侣约会",
+            "price": 194,
+            "price_format": "￥194",
+            "star_rating_color": "#008489",
+            "reviews_count": 2,
+            "bottom_info": {
+                "content": "超赞房东",
+                "content_color": "#767676",
+                "font_size": "10",
+                "visibility": "LIST_VIEW"
+            },
+            "lat": 23.061069,
+            "lng": 113.173637,
+            "image_url": "/goodprice/66239119b68818ad513ad0664d3f5b12.jpg"
+        },
+        {
+            "id": "600556552427992200",
+            "picture_url": "https://z1.muscache.cn/im/pictures/miso/Hosting-600556552427992207/original/326036f1-1f0b-45ea-96f1-529a00cbf0f3.jpeg?aki_policy=large",
+            "verify_info": {
+                "messages": [
+                    "整套loft",
+                    "1室1卫1床"
+                ],
+                "text_color": "#767676"
+            },
+            "name": "O宿【R-15】高空派对 大浴缸 迷你麻将大扑克 星空灯 一次性毛巾浴缸套 地铁金融高新区京华广场",
+            "price": 306,
+            "price_format": "￥306",
+            "star_rating_color": "#008489",
+            "reviews_count": 2,
+            "bottom_info": {
+                "content": "超赞房东",
+                "content_color": "#767676",
+                "font_size": "10",
+                "visibility": "LIST_VIEW"
+            },
+            "lat": 23.068506,
+            "lng": 113.15979,
+            "image_url": "/goodprice/0b826d1cdcda7f0523298c4a8c7c2648.jpg"
+        },
+        {
+            "id": "53957804",
+            "picture_url": "https://z1.muscache.cn/im/pictures/miso/Hosting-53957804/original/8dab9c8e-83d6-4561-bcae-b206094f0f8f.jpeg?aki_policy=large",
+            "verify_info": {
+                "messages": [
+                    "整套公寓型住宅",
+                    "1室1卫2床"
+                ],
+                "text_color": "#767676"
+            },
+            "name": "【乐途民宿 】广佛线魁奇路站/乐从家私/国际演艺中心/岭南新天地/新DNA购物中心/可长租短租",
+            "price": 134,
+            "price_format": "￥134",
+            "star_rating": 5,
+            "star_rating_color": "#008489",
+            "reviews_count": 15,
+            "reviews": [
+                {
+                    "comments": "地理位置很好，楼下就是大商场，吃的喝的都有很多选择，离地铁站也很近，出行方便，房间设施也很齐全，是很满意的一次住宿体验。",
+                    "created_at": "2022-06-06T00:00:00Z",
+                    "is_translated": false,
+                    "localized_date": "2022年6月",
+                    "reviewer_image_url": "https://a0.muscache.com/im/pictures/user/aa2fa8b5-fd47-4f3b-9d27-7a73542d0131.jpg?aki_policy=x_medium",
+                    "review_id": "642966420286257300"
+                }
+            ],
+            "bottom_info": {
+                "content": "超赞房东",
+                "content_color": "#767676",
+                "font_size": "10",
+                "visibility": "LIST_VIEW"
+            },
+            "lat": 22.995504,
+            "lng": 113.105911,
+            "image_url": "/goodprice/ebe050d6246d53d4facdb8b336e857e5.jpg"
+        },
+        {
+            "id": "47229150",
+            "picture_url": "https://z1.muscache.cn/im/pictures/07469b71-dd34-42be-9112-8f5609013b5b.jpg?aki_policy=large",
+            "verify_info": {
+                "messages": [
+                    "整套公寓型住宅",
+                    "1室1卫1床"
+                ],
+                "text_color": "#767676"
+            },
+            "name": "23A精装一室公寓/文华里美食汇",
+            "price": 100,
+            "price_format": "￥100",
+            "star_rating": 5,
+            "star_rating_color": "#008489",
+            "reviews_count": 16,
+            "reviews": [
+                {
+                    "comments": "挺好的",
+                    "created_at": "2021-11-07T00:00:00Z",
+                    "is_translated": false,
+                    "localized_date": "2021年11月",
+                    "reviewer_image_url": "https://a0.muscache.com/im/pictures/user/fff9f94d-eb5a-4c37-b394-82eb1d3dc2cf.jpg?aki_policy=x_medium",
+                    "review_id": "490016362626634100"
+                }
+            ],
+            "bottom_info": null,
+            "lat": 23.01629,
+            "lng": 113.13563,
+            "image_url": "/goodprice/684d6a9b09136777fbc3df09a39400f9.jpg"
+        },
+        {
+            "id": "45209220",
+            "picture_url": "https://z1.muscache.cn/im/pictures/0b6320fe-e9fc-4de7-a65c-ec9340cc6ded.jpg?aki_policy=large",
+            "verify_info": {
+                "messages": [
+                    "整套公寓型住宅",
+                    "1室1.5卫1床"
+                ],
+                "text_color": "#767676"
+            },
+            "name": "千灯湖/宜家家居/万达广场/天猫精灵投影套房",
+            "price": 132,
+            "price_format": "￥132",
+            "star_rating": 4.5,
+            "star_rating_color": "#008489",
+            "reviews_count": 5,
+            "reviews": [
+                {
+                    "comments": "。",
+                    "created_at": "2022-06-05T00:00:00Z",
+                    "is_translated": false,
+                    "localized_date": "2022年6月",
+                    "reviewer_image_url": "https://a0.muscache.com/im/pictures/user/3d8393b9-deec-4afa-a8d1-d4dbf3dd94d6.jpg?aki_policy=x_medium",
+                    "review_id": "642154174343779100"
+                }
+            ],
+            "bottom_info": {
+                "content": "超赞房东",
+                "content_color": "#767676",
+                "font_size": "10",
+                "visibility": "LIST_VIEW"
+            },
+            "lat": 23.06286,
+            "lng": 113.15738,
+            "image_url": "/goodprice/4b71e46feb4b3d56edb86209d133d3ec.jpg"
+        }
+        ]
+    }

@@ -1,79 +1,67 @@
-// import { getHomeDiscountData, getHomeGoodPriceData, getHomeHighScoreData, getHomeHotRecommendData, getHomeLongforData, getHomePlusData } from '@/services/modules/home'
+import { getHomeDiscountData, getHomeGoodPriceData, getHomeHighScoreData, getHomeHotRecommendData, getHomeLongforData, getHomePlusData } from '@/services'
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { getHomeGoodPriceData } from '../../services'
 
- const fetchHomeAllDataAction = createAsyncThunk("fetchData", () => {
+export const fetchHomeDataAction = createAsyncThunk("fetchdata", (payload, { dispatch }) => {  
   getHomeGoodPriceData().then(res => {
-    console.log(res)
+    dispatch(changeGoodPriceInfoAction(res))
   })
- })
-//   // 1.发送第一个网络请求
-//   getHomeDiscountData().then(res => {
-//     dispatch(changeDiscountInfoAction(res))
-//   })
+  getHomeHighScoreData().then(res => {
+    dispatch(changeHighScoreInfoAction(res))
+  })
+  getHomeDiscountData().then(res => {
+    dispatch(changeDiscountInfoAction(res))
+  })
+  getHomeHotRecommendData().then(res => {
+    dispatch(changeRecommendInfoAction(res))
+  })
+  getHomeLongforData().then(res => {
+    dispatch(changeLongforInfoAction(res))
+  })
+  getHomePlusData().then(res => {
+    dispatch(changePlusInfoAction(res))
+  })
+})
 
-//   getHomeHotRecommendData().then(res => {
-//     dispatch(changeHotRecommendInfoAction(res))
-//   })
-
-//   getHomeHighScoreData().then(res => {
-//     dispatch(changeHighScoreInfoAction(res))
-//   })
-
-//   getHomeGoodPriceData().then(res => {
-//     dispatch(changeGoodPriceInfoAction(res))
-//   })
-
-//   getHomePlusData().then(res => {
-//     dispatch(changePlusInfoAction(res))
-//   })
-
-//   getHomeLongforData().then(res => {
-//     dispatch(changeLongforInfoAction(res))
-//   })
 
 const homeSlice = createSlice({
   name: "home",
   initialState: {
-    // discountInfo: {},
-    // hotRecommendInfo: {},
-    // highScoreInfo: {},
     goodPriceInfo: {},
-    // plusInfo: {},
-    // longForInfo: {}
+    highScoreInfo: {},
+    discountInfo: {},
+    recommendInfo: {},
+    longforInfo: {},
+    plusInfo: {}
   },
   reducers: {
     changeGoodPriceInfoAction(state, { payload }) {
       state.goodPriceInfo = payload
+    },
+    changeHighScoreInfoAction(state, { payload }) {
+      state.highScoreInfo = payload
+    },
+    changeDiscountInfoAction(state, { payload }) {
+      state.discountInfo = payload
+    },
+    changeRecommendInfoAction(state, { payload }) {
+      state.recommendInfo = payload
+    },
+    changeLongforInfoAction(state, { payload }) {
+      state.longforInfo = payload
+    },
+    changePlusInfoAction(state, { payload }) {
+      state.plusInfo = payload
     }
-    // changeDiscountInfoAction(state, { payload }) {
-    //   state.discountInfo = payload
-    // },
-    // changeHotRecommendInfoAction(state, { payload }) {
-    //   state.hotRecommendInfo = payload
-    // },
-    // changeHighScoreInfoAction(state, { payload }) {
-    //   state.highScoreInfo = payload
-    // },
-    // changeGoodPriceInfoAction(state, { payload }) {
-    //   state.goodPriceInfo = payload
-    // },
-    // changePlusInfoAction(state, { payload }) {
-    //   state.plusInfo = payload
-    // },
-    // changeLongforInfoAction(state, { payload }) {
-    //   state.longForInfo = payload
-    // }
   }
 })
 
+export const { 
+  changeGoodPriceInfoAction, 
+  changeHighScoreInfoAction,
+  changeDiscountInfoAction,
+  changeRecommendInfoAction,
+  changeLongforInfoAction,
+  changePlusInfoAction
+} = homeSlice.actions
+
 export default homeSlice.reducer
- export const { 
-//   changeDiscountInfoAction, 
-//   changeHotRecommendInfoAction, 
-//   changeHighScoreInfoAction ,
-   changeGoodPriceInfoAction,
-//   changePlusInfoAction,
-//   changeLongforInfoAction
- } = homeSlice.actions
- export { fetchHomeAllDataAction }
