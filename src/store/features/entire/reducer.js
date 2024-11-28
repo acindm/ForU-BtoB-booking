@@ -7,7 +7,7 @@ const initialState = {
   totalCount: 0  //页码总数
 }
 
-
+//不使用工具的写法
 function reducer(state = initialState, action) {
   switch(action.type) {
     case actionTypes.CHANGE_LOADING:
