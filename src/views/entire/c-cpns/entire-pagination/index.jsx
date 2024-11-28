@@ -3,7 +3,6 @@ import  Pagination from '@mui/material/Pagination'
 
 import { PaginationWrapper } from './style'
 import { shallowEqual, useDispatch, useSelector } from 'react-redux'
-import { fetchHomeDataAction } from '@/store/features/home'
 import { fetchRoomListAction } from '@/store/features/entire/actionCreators.js'
 
 
