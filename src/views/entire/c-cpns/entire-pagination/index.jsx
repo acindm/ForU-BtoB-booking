@@ -18,7 +18,7 @@ const EntirePagination = memo(() => {
     const startCount = currentPage * 20 + 1
     const endCount = (currentPage + 1) * 20
     
-    //事件处理
+    //事件处理。点击页码切换页面，页面也要做到随之切换
     const dispatch = useDispatch()
     // 回到顶部；更新页码
     function pageChangeHandle(event, pageCount) {
