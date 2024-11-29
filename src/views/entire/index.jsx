@@ -7,7 +7,7 @@ import EntirePagination from './c-cpns/entire-pagination'
 import { fetchRoomListAction } from '@/store/features/entire/actionCreators.js'
 
 const Entire = memo(() => {
-  // 发送网络请求, 获取数据, 并且保存当前的页面等等.....
+  // 发送网络请求, 获取数据, 并且保存当前的页面
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(fetchRoomListAction())
