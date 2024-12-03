@@ -21,7 +21,11 @@ const routes = [
   {
     path: "/detail",
     element: <Detail/>
-  }
+  },
+    {
+      path: "/demo",
+      element: <Detail/>
+    }
 ]
 
 export default routes
