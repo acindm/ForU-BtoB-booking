@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components'
 
 import App from '@/App'
 import "normalize.css"
-// import "antd/dist/antd.less"
+import "antd/dist/reset.css"
 import "./assets/css/index.less"
 import store from './store'
 import theme from './assets/theme'
