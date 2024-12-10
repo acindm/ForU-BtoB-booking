@@ -14,8 +14,8 @@ const AppFooter = memo(() => {
                   <div className='name'>{item.name}</div>
                   <div className='list'>
                     {
-                      item.list.map(iten => {
-                        return <div className='iten' key={iten}>{iten}</div>
+                      item.list.map(item => {
+                        return <div className='item' key={item}>{item}</div>
                       })
                     }
                   </div>

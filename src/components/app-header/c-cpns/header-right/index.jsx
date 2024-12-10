@@ -5,10 +5,10 @@ import React, { memo, useEffect, useState } from 'react'
 import { RightWrapper } from './style'
 
 const HeaderRight = memo(() => {
-  /** 定义组件内部的状态 */
+  //组件下拉面板状态定义
   const [ showPanel, setShowPanel ] = useState(false)
 
-  /** 副作用代码 */
+  //全局事件监听，打开下拉面板后，点击页面任何位置关闭下拉面板
   useEffect(() => {
     function windowHandleClick() {
       setShowPanel(false)
@@ -18,16 +18,15 @@ const HeaderRight = memo(() => {
       window.removeEventListener("click", windowHandleClick, true)
     }
   }, [])
-
-  /** 事件处理函数 */
+//点击下拉面板按钮，展开面板；展开状态下点击下拉面板按钮，关闭面板
   function profileClickHandle() {
     setShowPanel(true)
   }
-
+  
   return (
     <RightWrapper>
       <div className='btns'>
-        <span className='btn'>发布民宿信息</span>
+        <span className='btn'>民宿信息发布</span>
         <span className='btn'>
           <IconGlobal/>
         </span>
@@ -44,9 +43,8 @@ const HeaderRight = memo(() => {
               <div className='item login'>登录</div>
             </div>
             <div className='bottom'>
-              <div className='item'>出租房源</div>
-              <div className='item'>开展体验</div>
-              <div className='item'>帮助</div>
+              <div className='item'>历史浏览记录</div>
+              <div className='item'>帮助中心</div>
             </div>
           </div>
         ) }

@@ -12,7 +12,7 @@ function logoClickHandle() {
   return (
     <LeftWrapper>
       <div className='logo' onClick={logoClickHandle}>
-      <img className="logo-img" src={ForUImage} alt="big-logo" />
+      <img className="logo-img" src={ForUImage} alt="main-logo" />
       </div>
     </LeftWrapper>
   )
