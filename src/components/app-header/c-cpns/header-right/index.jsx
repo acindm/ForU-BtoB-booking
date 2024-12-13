@@ -13,14 +13,16 @@ const HeaderRight = memo(() => {
     function windowHandleClick() {
       setShowPanel(false)
     }
-    window.addEventListener("click", windowHandleClick, true)
+    window.addEventListener("click", windowHandleClick)
     return () => {
-      window.removeEventListener("click", windowHandleClick, true)
+      window.removeEventListener("click", windowHandleClick)
     }
   }, [])
-//点击下拉面板按钮，展开面板；展开状态下点击下拉面板按钮，关闭面板
-  function profileClickHandle() {
-    setShowPanel(true)
+//点击下拉面板按钮，展开面板；
+//（新增功能）展开状态下点击下拉面板按钮，关闭面板
+  function profileClickHandle(event) {
+    event.stopPropagation()
+    setShowPanel(prevState => !prevState)
   }
   
   return (
